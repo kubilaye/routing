@@ -28,6 +28,7 @@ const appRoutes: Routes = [
 
 @NgModule({
   imports: [
+    // RouterModule.forRoot(appRoutes, {useHash: true}), // routing fallback for earlier versions
     RouterModule.forRoot(appRoutes),
   ],
   exports: [
