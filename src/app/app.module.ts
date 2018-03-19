@@ -30,10 +30,10 @@ const appRoutes: Routes = [
     ServerComponent
   ],
   imports: [
+    RouterModule.forRoot(appRoutes),
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes),
   ],
   providers: [ServersService],
   bootstrap: [AppComponent],
